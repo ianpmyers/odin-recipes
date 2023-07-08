@@ -1,2 +1,3 @@
 # odin-recipes
-building basic html recipe website
+
+building a basic html recipe website to demonstrate the knowledge i have obtained via Odin Projec
