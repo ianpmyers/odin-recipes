@@ -1,0 +1,48 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #fff9c4;
+}
+
+h2 {
+  text-align: center;
+  background-color: #ffcdd2;
+  border-radius: 20px;
+}
+
+p {
+  text-align: center;
+  background-color: #b3e5fc;
+  border-radius: 20px;
+}
+
+ul {s
+  text-align: center;
+  list-style-type: square;
+  padding: 0;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+ul li {
+  margin-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+ul li:hover {
+  animation: wiggle-animation 0.5s infinite;
+}
+
+@keyframes wiggle-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-8deg);
+  }
+  75% {
+    transform: rotate(8deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
