@@ -1,5 +1,5 @@
 * {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Roboto", "Helvetica", sans-serif;
   background-color: #fff9c4;
 }
 
@@ -12,19 +12,19 @@ h2 {
 p {
   text-align: center;
   background-color: #b3e5fc;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 ul {
   text-align: center;
   list-style-type: square;
   padding: 0;
-  margin: 0 auto;
+  margin: auto;
   width: fit-content;
 }
 
 ul li {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   transition: transform 0.2s ease-in-out;
 }
 
@@ -45,4 +45,14 @@ ul li:hover {
   100% {
     transform: rotate(0deg);
   }
+}
+
+img {
+  width: 300px;
+  height: auto;
+  display: block;
+  border: 8px solid #a0e6ff;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
 }
