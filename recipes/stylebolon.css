@@ -1,0 +1,28 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #fff9c4;
+}
+
+body h1 {
+  text-align: center;
+  background-color: #ffcdd2;
+  border-radius: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 8px solid #a0e6ff;
+  border-radius: 8px;
+}
+
+h5 {
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 265px;
+}
+
+p {
+  text-align: center;
+}
