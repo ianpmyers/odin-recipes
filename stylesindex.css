@@ -1,4 +1,4 @@
-* {
+body {
   font-family: "Roboto", "Helvetica", sans-serif;
   background-color: #fff9c4;
 }
@@ -17,7 +17,7 @@ p {
 
 ul {
   text-align: center;
-  list-style-type: square;
+  list-style-type: none;
   padding: 0;
   margin: auto;
   width: fit-content;
@@ -25,10 +25,19 @@ ul {
 
 ul li {
   margin-bottom: 50px;
-  transition: transform 0.2s ease-in-out;
+  border: 2px solid #b3e5fc;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+ul li a {
+  text-decoration: none;
 }
 
 ul li:hover {
+  background-color: #e0e0e0;
   animation: wiggle-animation 0.5s infinite;
 }
 
